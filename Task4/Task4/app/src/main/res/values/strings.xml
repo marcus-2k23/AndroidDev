@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Task4</string>
+    <string name="page_title">Top Restaurants</string>
+    <string name="review1">0.0</string>
+    <string name="app_title">MDGTask4</string>
+    <string name="TextViewTopRestaurants">Top Restaurants</string>
+    <string name="restaurant_title">Canoe</string>
+    <string name="restaurantDesc">Discover Executive Chef Ron McKinlay’s latest eight-course tasting menu, a symphony of autumnal delights.</string>
+    <string name="plsRateUs">please rate us</string>
+    <string name="ratingValueText">0.0</string>
+    <string name="restaurant_title_aloette">Aloette</string>
+    <string name="restaurantDescAloette">Aloette -- which opened in 2017 at the corner of Queen Street and Spadina Avenue -- is the neighbourhood bistro as imagined by the Alo Food Group. It\'s where our taste for haute cuisine meets cravings for cheeseburgers and lemon meringue pie. Aloette is open daily for lunch and dinner. Walk-ins are encouraged</string>
+    <string name="restaurant_title_Scaramouche">Scaramouche</string>
+    <string name="restaurantDescScaramouche">Scaramouche offers contemporary cuisine in midtown with panoramic skyline views.\nA long standing Toronto favourite that has been offering excellent dining experiences based on trust, courtesy and consistency.\nWe are open from Tuesday-Saturday evenings.</string>
+    <string name="restaurant_title_lena">Lena</string>
+    <string name="restaurantDescLena">Leña is an ode to matriarchal ideals at the table, to that style of cooking that percolates in all of us cooks.”\n\n \nAnthony Walsh</string>
+    <string name="restaurant_title_Five_Sails">Five Sails</string>
+    <string name="restaurantDescFive_Sails">Five Sails offers an unparalleled dining experience. Dine on exquisitely prepared West Coast fare while you drink in the breathtaking waterfront views.</string>
+</resources>

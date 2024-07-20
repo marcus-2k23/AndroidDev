@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Task6</string>
+    <string name="next">SUIVANT</string>
+    <string name="skip">SAUTER</string>
+    <string name="cont">CONTINUER</string>
+
+    <string name="slide_1_title">Bienvenue chez HR Prima</string>
+    <string name="slide_1_desc">Tirez parti de la puissance de l’application RH ultime !</string>
+    <string name="slide_2_title">Configuration des employés</string>
+    <string name="slide_2_desc">Tirez parti de la puissance de l’application RH ultime !</string>
+    <string name="slide_3_title">Gestion de la Paie</string>
+    <string name="slide_3_desc">Tirez parti de la puissance de l’application RH ultime !</string>
+
+    <string name="add_emp">Ajouter un employé</string>
+    <string name="delete_emp">Supprimer un employé</string>
+    <string name="list_emp">Liste des employés</string>
+    <string name="update_emp">Mettre à jour l employé</string>
+
+    <!-- The below two strings represents the open and close operations of the navigation drawer -->
+    <string name="nav_open">Ouvrir</string>
+    <string name="nav_close">Fermer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Bonjour fragment vierge</string>
+
+    <string name="search">Recherche</string>
+    <string name="account">Compte</string>
+    <string name="profile">Profil</string>
+    <string name="list_employees_title">Liste des employés</string>
+    <string name="login_title">Se connecter</string>
+    <string name="login_user_id">ID de l utilisateur:</string>
+    <string name="login_password">Mot de passe:</string>
+    <string name="login_e_mail_id">Identifiant de messagerie:</string>
+    <string name="login_login_btn">Se connecter</string>
+    <string name="delete_employee_title">Supprimer un employé</string>
+    <string name="delete_employee_id">Identifiant de l employé:</string>
+    <string name="delete_delete_btn">Supprimer</string>
+    <!--    Add Employee Fragment-->
+    <string name="add_employee_title">Ajouter un employé</string>
+    <string name="add_employee_name">Nom:</string>
+    <string name="add_employee_designation">Désignation:</string>
+    <string name="add_employee_department">Département:</string>
+    <string name="add_employee_email">E-mail:</string>
+    <string name="add_employee_salary">Salaire:</string>
+    <string name="add_employee_submit">Soumettre</string>
+</resources>
+
+

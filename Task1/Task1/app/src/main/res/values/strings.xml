@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Task1</string>
+    <string name="title">Title</string>
+    <string name="description">Description</string>
+    <string name="brand">Brand</string>
+    <string name="category">Category</string>
+    <string name="setTheDate">Set The Date</string>
+    <string name="ExpiryDate">Expiry Date</string>
+    <string name="ExpiryDateHint">Sat DEC 31 14:28:00\nEST 2022</string>
+    <string name="ReminderDate">Reminder Date</string>
+    <string name="ReminderDateHint">Fri Dec 30 14:28:00\nEST 2022</string>
+    <string name="descriptionText">\nDescription\n</string>
+</resources>

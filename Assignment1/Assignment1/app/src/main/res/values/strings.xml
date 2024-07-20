@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Assignment1</string>
+    <string name="app_title">Delicia Beverage</string>
+    <string name="CName">Customer Name</string>
+    <string name="Email">Email Address</string>
+    <string name="phone">Phone Number</string>
+    <string name="type_label">Type of Beverage: </string>
+    <string name="type_radio_option1">Tea</string>
+    <string name="type_radio_option2">Coffee</string>
+    <string name="additionalFieldText">Additional: </string>
+    <string name="additionalCheckboxMilk">Milk</string>
+    <string name="additionalCheckboxSugar">Sugar</string>
+    <string name="sizeText">Size of Beverage:</string>
+    <string name="smallSizeText">Small</string>
+    <string name="mediumSizeText">Medium</string>
+    <string name="LargeSizeText">Large</string>
+    <string name="flavour">Added flavourings:</string>
+    <string name="regionText">Region</string>
+    <string name="storeText">Store</string>
+    <string name="SaleDateText">Sale Date</string>
+    <string name="submit">Submit</string>
+</resources>

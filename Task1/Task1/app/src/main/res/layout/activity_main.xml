@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+    android:id="@id/title"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/title"
+        android:layout_marginTop="7dp"
+        android:layout_marginLeft="7dp"
+    android:textSize="18dp"
+        style="@style/TextStyleGray"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"/>
+
+    <EditText
+        android:id="@+id/titleText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="7dp"
+        android:layout_marginRight="7dp"
+        android:padding="7dp"
+        android:background="@drawable/roundedfield"
+        android:hint="@string/title"
+        app:layout_constraintTop_toBottomOf="@+id/title"/>
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/description"
+        android:layout_marginTop="7dp"
+        android:layout_marginLeft="7dp"
+        android:textSize="18dp"
+        style="@style/TextStyleGray"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/titleText"/>
+
+    <EditText
+        android:id="@+id/descriptionText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="7dp"
+        android:layout_marginRight="7dp"
+        android:padding="7dp"
+        android:background="@drawable/roundedfield"
+        android:hint="@string/descriptionText"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/description"/>
+
+    <TextView
+        android:id="@+id/brand"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/brand"
+        android:textSize="18dp"
+        style="@style/TextStyleGray"
+        android:layout_marginTop="7dp"
+        android:layout_marginLeft="7dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/descriptionText"/>
+
+    <EditText
+        android:id="@+id/brandText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="7dp"
+        android:layout_marginRight="7dp"
+        android:padding="7dp"
+        android:background="@drawable/roundedfield"
+        android:hint="@string/brand"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/brand"/>
+
+    <TextView
+        android:id="@+id/category"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/category"
+        style="@style/TextStyleGray"
+        android:layout_marginTop="7dp"
+        android:layout_marginLeft="7dp"
+        android:textSize="18dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/brandText"/>
+
+    <EditText
+        android:id="@+id/categoryText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="7dp"
+        android:layout_marginRight="7dp"
+        android:padding="7dp"
+        android:background="@drawable/roundedfield"
+        android:hint="@string/category"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/category"/>
+
+   <ImageView
+       android:layout_width="150dp"
+       android:layout_height="150dp"
+       android:id="@+id/milkImage"
+       android:text="text for pic"
+       android:src="@drawable/image_box1"
+       android:layout_marginTop="5dp"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintTop_toBottomOf="@+id/categoryText"/>
+
+    <TextView
+        android:id="@+id/setTheDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/setTheDate"
+        style="@style/TextStyleGray"
+        android:layout_marginTop="7dp"
+        android:layout_marginLeft="7dp"
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/milkImage"/>
+
+    <TextView
+        android:id="@+id/ExpiryDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ExpiryDate"
+        android:textSize="18dp"
+        style="@style/TextStyleGray"
+        android:layout_marginTop="7dp"
+        android:layout_marginLeft="7dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/setTheDate"/>
+
+    <TextView
+        android:id="@+id/ReminderDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ReminderDate"
+        android:layout_marginTop="5dp"
+        android:textSize="18dp"
+        style="@style/TextStyleGray"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintHorizontal_weight="2"
+        app:layout_constraintLeft_toRightOf="@+id/ExpiryDate"
+        app:layout_constraintTop_toBottomOf="@+id/setTheDate"/>
+
+    <EditText
+        android:id="@+id/ExpiryDateText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp"
+        android:layout_marginLeft="7dp"
+        android:padding="7dp"
+        android:background="@drawable/roundedfield"
+        android:hint="@string/ExpiryDateHint"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ExpiryDate"/>
+
+    <EditText
+        android:id="@+id/ReminderDateText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/ReminderDateHint"
+        android:layout_marginTop="7dp"
+        app:layout_constraintHorizontal_weight="4"
+        android:background="@drawable/roundedfield"
+        android:layout_marginLeft="5dp"
+        android:padding="7dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toRightOf="@+id/ExpiryDateText"
+        app:layout_constraintTop_toBottomOf="@+id/ReminderDate"/>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/green"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:text="SAVE"/>
+    
+
+</androidx.constraintlayout.widget.ConstraintLayout>
